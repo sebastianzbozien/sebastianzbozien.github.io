@@ -1,0 +1,251 @@
+<!-- 
+tak wiem templatka :)
+-->
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Sebastian Zbozień
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Sebastian Zbozień: Python, C#, 3ds Max, Photoshop" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projekty</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Zainteresowania</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">O mnie</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Sebastian Zbozień</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Student szukający celu w życiu</p>
+        <a href="#contact" class="btn btn--pink">Skontaktuj się</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Moje prace</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Projekt FineFollower</h3>
+              <p>
+                Projekt polegający na stworzeniu algorytmu FineFollower korzystając z OpenCV, Python w środowisku Webots.
+              </p>
+              <ul class="work__list">
+                <li>Python 3.7</li>
+                <li>OpenCV 4.0.0.21</li>
+                <li>Webots R2020A Revision 1</li>
+                <li>numpy 1.16.1</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://bitbucket.org/zbozien/projekt-inzynierski-linefollower/src/master/" target="_blank" class="link__text">
+                  Odwiedź stronę <span>&rarr;</span>
+                </a>
+                <a href="https://bitbucket.org/zbozien/projekt-inzynierski-linefollower/src/master/" title="View Source Code" target="_blank">
+                  <img src="./images/bitbucket-icon.svg" class="work__code" alt="BitBucket">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Testy aplikacji TeamSpeak 3</h3>
+              <p>
+                Projekt polegający na przygotowaniu scenariuszy testowych dla aplikacji TeamSpeak 3, 
+                wykonaniu testów manualnych oraz zaprogramowaniu testów automatycznych.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>Selenium</li>           
+              </ul>
+
+              <div class="work__links">
+                <a href="https://bitbucket.org/zbozien/testteamspeak/src/master/" class="link__text">
+                  Odwiedź stronę<span>&rarr;</span>
+                </a>
+                <a href="https://bitbucket.org/zbozien/testteamspeak/src/master/">
+                  <img src="./images/bitbucket-icon.svg" class="work__code" title="View Source Code" alt="BitBucket">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+          <!--
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Zainteresowania</h2> 
+        <p>
+          Interesuje się modelowaniem i animacją w wolnym czasie, tworze różne proste modele oraz animacje.
+        </p>       
+          <a class="gallery" href="images/blog/1.jpg"><img src="images/blog/1-thumb.jpg" alt="Pierwsza miniaturka"></a>
+          <a class="gallery" href="images/blog/2.jpg"><img src="images/blog/2-thumb.jpg" alt="Druga miniaturka"></a>
+          <a class="gallery" href="images/blog/3.jpg"><img src="images/blog/3-thumb.jpg" alt="Trzecia miniaturka"></a>
+          <a class="gallery" href="images/blog/4.jpg"><img src="images/blog/4-thumb.jpg" alt="Czwarta miniaturka"></a>
+          <a class="gallery" href="images/blog/5.jpg"><img src="images/blog/5-thumb.jpg" alt="Piąta miniaturka"></a> 
+
+          <p>
+           Animacje i symulacje
+          </p>
+          <div>      
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/oDdt6PSfpXQ" frameborder="0" allowfullscreen></iframe>
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/ntJ1VYkbwZw" frameborder="0" allowfullscreen></iframe>
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/AtVROeXt6Y0" frameborder="0" allowfullscreen></iframe>
+          </div>
+                    
+      </div>
+    </section>
+    
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>O mnie</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Moje dotychczasowe doświadczenie zawodowe nauczyło mnie efektywnego zarządzania pracą innych
+               oraz świadczenia usług o najwyższym poziomie jakości. Zależy mi na pracy, dzięki której 
+               będę miał możliwość wykorzystania nabytej podczas studiów wiedzy i umiejętności a 
+               także zdobycie cennego doświadczenia, gwarantującego dalszy rozwój zawodowy.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">Wróć</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/sebastian_zbozien.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Kontakt</h2>
+      <div class="contact__info">
+        <p>
+          Dziękuje za poświecony czas na zapoznanie się z moimi umiejętnościami.
+          Jeśli szukacie osoby, która zakochała się w informatyce od pierwszych lat swojego
+          życia zapraszam do kontaktu ze mną.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="sebastian.zbozień@gmail.com" class="btn">sebastian.zbozień@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/sebastian-zbozień-156b5b1b1/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+
+
+  <script src="./index.js"></script>
+  <script src="comp.js"></script>
+  <script src="gallery.js"></script>
+  <script>
+    (function ($) {
+      $(".gallery").gallery();
+   })(Comp);
+  </script>
+  <script src="https://kit.fontawesome.com/39ec089e41.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
