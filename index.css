@@ -885,3 +885,9 @@ body:not(.user-is-tabbing) a:focus {
       margin-left: 0.03%;
       margin-right: 0.03%;
   }
+
+  .youtube {
+    display: inline-block;
+    width: 32%;
+    height: 290px;
+  }
